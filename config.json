@@ -1,0 +1,15 @@
+{
+  "accounts": [
+    { "uid": "your_uid_1", "password": "pass1" },
+    { "uid": "your_uid_2", "password": "pass2" }
+  ],
+  "target_group": "https://www.facebook.com/groups/YOUR_GROUP_ID/",
+  "reaction_types": ["like", "love", "wow"],
+  "comment_texts": ["🔥 Zabardast!", "👑 Bhai kamaal post", "💯 Mazay aa gaye"],
+  "settings": {
+    "limit_posts_per_account": 3,
+    "delay_min_seconds": 2,
+    "delay_max_seconds": 6,
+    "headless": false
+  }
+}
